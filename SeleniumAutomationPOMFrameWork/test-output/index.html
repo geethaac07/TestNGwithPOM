@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\geeth\eclipse-workspace\SeleniumAutomationPOMFrameWork\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="MySettings_UserMenu_Option_TestScript_07">MySettings_UserMenu_Option_TestScript_07</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Create_Account_TestScript_10">Create_Account_TestScript_10</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="DevConsole_UserMenu_Option_TestScript_08">DevConsole_UserMenu_Option_TestScript_08</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Forgot_Password_TestScript_4B">Forgot_Password_TestScript_4B</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Login_Error_Message_TestScript_01">Login_Error_Message_TestScript_01</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Logout_TestScript_09">Logout_TestScript_09</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="MyProfile_UserMenu_Option_TestScript_06">MyProfile_UserMenu_Option_TestScript_06</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Success_login_RememberMe_TestScript_03">Success_login_RememberMe_TestScript_03</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="Success_login_TestScript_02">Success_login_TestScript_02</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.automation.testscripts.POMAutomationScripts" class="method navigator-link" hash-for-method="User_Menu_Dropdown_TestScript_05">User_Menu_Dropdown_TestScript_05</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.automation.testscripts.POMAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="MySettings_UserMenu_Option_TestScript_07">
+                  </a> <!-- MySettings_UserMenu_Option_TestScript_07 -->
+                  <span class="method-name">MySettings_UserMenu_Option_TestScript_07</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Reports
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;GEETHA&apos;, ip: &apos;192.168.50.52&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.automation.pages.mysettings.CustomizeTabsPage.selectAvailTabs(CustomizeTabsPage.java:73)
+	at com.automation.testscripts.POMAutomationScripts.MySettings_UserMenu_Option_TestScript_07(POMAutomationScripts.java:249)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.automation.testscripts.POMAutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Account_TestScript_10">
+                  </a> <!-- Create_Account_TestScript_10 -->
+                  <span class="method-name">Create_Account_TestScript_10</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DevConsole_UserMenu_Option_TestScript_08">
+                  </a> <!-- DevConsole_UserMenu_Option_TestScript_08 -->
+                  <span class="method-name">DevConsole_UserMenu_Option_TestScript_08</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Forgot_Password_TestScript_4B">
+                  </a> <!-- Forgot_Password_TestScript_4B -->
+                  <span class="method-name">Forgot_Password_TestScript_4B</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_Error_Message_TestScript_01">
+                  </a> <!-- Login_Error_Message_TestScript_01 -->
+                  <span class="method-name">Login_Error_Message_TestScript_01</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logout_TestScript_09">
+                  </a> <!-- Logout_TestScript_09 -->
+                  <span class="method-name">Logout_TestScript_09</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="MyProfile_UserMenu_Option_TestScript_06">
+                  </a> <!-- MyProfile_UserMenu_Option_TestScript_06 -->
+                  <span class="method-name">MyProfile_UserMenu_Option_TestScript_06</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Success_login_RememberMe_TestScript_03">
+                  </a> <!-- Success_login_RememberMe_TestScript_03 -->
+                  <span class="method-name">Success_login_RememberMe_TestScript_03</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Success_login_TestScript_02">
+                  </a> <!-- Success_login_TestScript_02 -->
+                  <span class="method-name">Success_login_TestScript_02</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="User_Menu_Dropdown_TestScript_05">
+                  </a> <!-- User_Menu_Dropdown_TestScript_05 -->
+                  <span class="method-name">User_Menu_Dropdown_TestScript_05</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\geeth\eclipse-workspace\SeleniumAutomationPOMFrameWork\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.automation.utility.POMEventListenersUtility&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;chromeTest&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.automation.testscripts.POMAutomationScripts&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- chromeTest --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">chromeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'MySettings_UserMenu_Option_TestScript_07')
+data.setCell(0, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(0, 3, 25911);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'MyProfile_UserMenu_Option_TestScript_06')
+data.setCell(1, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(1, 3, 16131);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Logout_TestScript_09')
+data.setCell(2, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(2, 3, 14243);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Create_Account_TestScript_10')
+data.setCell(3, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(3, 3, 13236);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DevConsole_UserMenu_Option_TestScript_08')
+data.setCell(4, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(4, 3, 9705);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Success_login_RememberMe_TestScript_03')
+data.setCell(5, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(5, 3, 9489);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'User_Menu_Dropdown_TestScript_05')
+data.setCell(6, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(6, 3, 6985);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Success_login_TestScript_02')
+data.setCell(7, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(7, 3, 4889);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Forgot_Password_TestScript_4B')
+data.setCell(8, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(8, 3, 1830);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login_Error_Message_TestScript_01')
+data.setCell(9, 2, 'com.automation.testscripts.POMAutomationScripts')
+data.setCell(9, 3, 584);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.automation.testscripts.POMAutomationScripts</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Forgot_Password_TestScript__4A</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.automation.testscripts.POMAutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUpForBeforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">509 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Create_Account_TestScript_10</span>
+                <span class="method-start">3568 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">16812 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DevConsole_UserMenu_Option_TestScript_08</span>
+                <span class="method-start">18606 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">28313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Forgot_Password_TestScript_4B</span>
+                <span class="method-start">30177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">32009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Login_Error_Message_TestScript_01</span>
+                <span class="method-start">34123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">34710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Logout_TestScript_09</span>
+                <span class="method-start">36599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">50844 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">MyProfile_UserMenu_Option_TestScript_06</span>
+                <span class="method-start">52862 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">68995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">MySettings_UserMenu_Option_TestScript_07</span>
+                <span class="method-start">70616 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">96723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Success_login_RememberMe_TestScript_03</span>
+                <span class="method-start">98382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">107871 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Success_login_TestScript_02</span>
+                <span class="method-start">109858 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpForBeforeMethod(chrome)</span>
+                <span class="method-start">114749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">User_Menu_Dropdown_TestScript_05</span>
+                <span class="method-start">116470 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

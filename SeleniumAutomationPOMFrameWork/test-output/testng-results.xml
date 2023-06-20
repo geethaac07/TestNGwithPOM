@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="11" passed="9" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-19T17:10:42 PDT" name="Suite" finished-at="2023-06-19T17:12:46 PDT" duration-ms="123744">
+    <groups>
+    </groups>
+    <test started-at="2023-06-19T17:10:42 PDT" name="chromeTest" finished-at="2023-06-19T17:12:46 PDT" duration-ms="123744">
+      <class name="com.automation.testscripts.POMAutomationScripts">
+        <test-method is-config="true" signature="setUpForBeforeTest()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:10:43 PDT" name="setUpForBeforeTest" finished-at="2023-06-19T17:10:43 PDT" duration-ms="488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeTest -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:10:43 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:10:46 PDT" duration-ms="3057" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Create_Account_TestScript_10()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:10:46 PDT" name="Create_Account_TestScript_10" finished-at="2023-06-19T17:11:00 PDT" duration-ms="13236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Account_TestScript_10 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:00 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:01 PDT" duration-ms="1794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="DevConsole_UserMenu_Option_TestScript_08()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:01 PDT" name="DevConsole_UserMenu_Option_TestScript_08" finished-at="2023-06-19T17:11:11 PDT" duration-ms="9705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DevConsole_UserMenu_Option_TestScript_08 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:11 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:13 PDT" duration-ms="1864" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Forgot_Password_TestScript_4B()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:13 PDT" name="Forgot_Password_TestScript_4B" finished-at="2023-06-19T17:11:15 PDT" duration-ms="1830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Forgot_Password_TestScript_4B -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:15 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:17 PDT" duration-ms="2114" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Login_Error_Message_TestScript_01()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:17 PDT" name="Login_Error_Message_TestScript_01" finished-at="2023-06-19T17:11:17 PDT" duration-ms="584" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_Error_Message_TestScript_01 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:17 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:19 PDT" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Logout_TestScript_09()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:19 PDT" name="Logout_TestScript_09" finished-at="2023-06-19T17:11:34 PDT" duration-ms="14243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_TestScript_09 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:34 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:36 PDT" duration-ms="2017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="MyProfile_UserMenu_Option_TestScript_06()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:36 PDT" name="MyProfile_UserMenu_Option_TestScript_06" finished-at="2023-06-19T17:11:52 PDT" duration-ms="16131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MyProfile_UserMenu_Option_TestScript_06 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:52 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:11:53 PDT" duration-ms="1620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="MySettings_UserMenu_Option_TestScript_07()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:11:53 PDT" name="MySettings_UserMenu_Option_TestScript_07" finished-at="2023-06-19T17:12:19 PDT" duration-ms="25911" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Reports
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GEETHA', ip: '192.168.50.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Reports
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'GEETHA', ip: '192.168.50.52', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at com.automation.pages.mysettings.CustomizeTabsPage.selectAvailTabs(CustomizeTabsPage.java:73)
+at com.automation.testscripts.POMAutomationScripts.MySettings_UserMenu_Option_TestScript_07(POMAutomationScripts.java:249)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MySettings_UserMenu_Option_TestScript_07 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:19 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:12:21 PDT" duration-ms="1658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Success_login_RememberMe_TestScript_03()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:21 PDT" name="Success_login_RememberMe_TestScript_03" finished-at="2023-06-19T17:12:31 PDT" duration-ms="9489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Success_login_RememberMe_TestScript_03 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:31 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:12:33 PDT" duration-ms="1987" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="Success_login_TestScript_02()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:33 PDT" name="Success_login_TestScript_02" finished-at="2023-06-19T17:12:37 PDT" duration-ms="4889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Success_login_TestScript_02 -->
+        <test-method is-config="true" signature="setUpForBeforeMethod(java.lang.String)[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:37 PDT" name="setUpForBeforeMethod" finished-at="2023-06-19T17:12:39 PDT" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpForBeforeMethod -->
+        <test-method signature="User_Menu_Dropdown_TestScript_05()[pri:0, instance:com.automation.testscripts.POMAutomationScripts@3012646b]" started-at="2023-06-19T17:12:39 PDT" name="User_Menu_Dropdown_TestScript_05" finished-at="2023-06-19T17:12:46 PDT" duration-ms="6985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- User_Menu_Dropdown_TestScript_05 -->
+      </class> <!-- com.automation.testscripts.POMAutomationScripts -->
+    </test> <!-- chromeTest -->
+  </suite> <!-- Suite -->
+</testng-results>
